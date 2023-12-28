@@ -1,12 +1,11 @@
 fn main() {
-    let name = "Vishal";
-    let mut age = 20;
-    let is_male = true;
-    println!("Name : {}", name);
+    let age: i32 = 20;
+    let is_male: bool = true;
+    let name: &str = "Vishal";
+    let weight: f32 = 45.55;
+    println!("Name: {}", name);
     println!("Age : {}", age);
-    println!("is Male : {}", is_male);
-    
-    age = 30;
-
-    print!("Age : {}",age)
+    println!("Weight : {}", weight);
+    println!("Gender : {}", is_male);
+    println!("Hello, world!");
 }
