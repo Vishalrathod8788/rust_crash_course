@@ -1,3 +1,7 @@
 use std::io;
 
-fn main() {}
+fn main() {
+    let x = 10;
+    let y = 20;
+
+}
