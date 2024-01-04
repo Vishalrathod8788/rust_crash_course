@@ -1,1 +1,1 @@
-# rust_for_beginners
+# rust_crash_course 
